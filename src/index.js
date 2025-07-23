@@ -44,7 +44,7 @@ class Heroi {
         this.tipo = tipo;
     }
 
-    atacar() {
+    attack() {
         let ataque = "";
 
         switch (this.tipo) {
@@ -70,5 +70,11 @@ class Heroi {
 
         console.log(`O ${this.tipo} atacou usando ${ataque}`);
     }
-    
+
 }
+
+const mago = new Heroi("Merlin", 35, "mago");
+const guerreiro = new Heroi("Arthur", 30, "guerreiro");
+
+mago.atacar();
+guerreiro.atacar(); 

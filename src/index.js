@@ -68,13 +68,13 @@ class Heroi {
                 ataque = "ataque desconhecido";
         }
 
-        console.log(`O ${this.tipo} atacou usando ${ataque}`);
+        console.log(`O ${this.tipo} atacou ${ataque}`);
     }
 
 }
 
-const mago = new Heroi("Merlin", 35, "mago");
-const guerreiro = new Heroi("Arthur", 30, "guerreiro");
+const mago = new Heroi("Merlin", 40, "mago");
+const guerreiro = new Heroi("Arthur", 50, "guerreiro");
 
 mago.attack();
 guerreiro.attack(); 

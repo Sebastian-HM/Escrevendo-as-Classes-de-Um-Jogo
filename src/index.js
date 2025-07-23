@@ -77,8 +77,10 @@ const mago = new Heroi("Merlin", 65, "mago");
 const guerreiro = new Heroi("Highlander", 30, "warrior");
 const monge = new Heroi("Shaolin", 25, "monge")
 const ninja = new Heroi("Okinawa", 50, "ninja")
+const palhaço = new Heroi("Clown", 45, "palhaço");
 
 mago.attack();
 guerreiro.attack();
 monge.attack();
-ninja. attack();
+ninja.attack();
+palhaço.attack();

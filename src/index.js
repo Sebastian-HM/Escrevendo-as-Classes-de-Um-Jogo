@@ -49,19 +49,19 @@ class Heroi {
 
         switch (this.tipo) {
             case "mago":
-                ataque = "usou magia";
+                ataque = "usando magia";
                 break;
 
-            case "guerreiro":
-                ataque = "usou espada";
+            case "warrior":
+                ataque = "usando espada";
                 break;
 
             case "monge":
-                ataque = "usou artes marciais";
+                ataque = "usando artes marciais";
                 break;
 
             case "ninja":
-                ataque = "usou shuriken";
+                ataque = "usando shuriken";
                 break;
 
             default:
@@ -73,8 +73,12 @@ class Heroi {
 
 }
 
-const mago = new Heroi("Merlin", 40, "mago");
-const guerreiro = new Heroi("Arthur", 50, "guerreiro");
+const mago = new Heroi("Merlin", 65, "mago");
+const guerreiro = new Heroi("Highlander", 30, "warrior");
+const monge = new Heroi("Shaolin", 25, "monge")
+const ninja = new Heroi("Okinawa", 50, "ninja")
 
 mago.attack();
-guerreiro.attack(); 
+guerreiro.attack();
+monge.attack();
+ninja. attack();

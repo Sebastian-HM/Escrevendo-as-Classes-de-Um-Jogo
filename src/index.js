@@ -76,5 +76,5 @@ class Heroi {
 const mago = new Heroi("Merlin", 35, "mago");
 const guerreiro = new Heroi("Arthur", 30, "guerreiro");
 
-mago.atacar();
-guerreiro.atacar(); 
+mago.attack();
+guerreiro.attack(); 
